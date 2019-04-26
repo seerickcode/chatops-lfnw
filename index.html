@@ -4,14 +4,14 @@
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
-		<title>reveal.js</title>
+		<title>Chat Ops - /next 2018</title>
 
-		<link rel="stylesheet" href="css/reset.css">
 		<link rel="stylesheet" href="css/reveal.css">
-		<link rel="stylesheet" href="css/theme/black.css">
+		<link rel="stylesheet" href="css/theme/night.css">
+		<link rel="stylesheet" href="css/custom.css">
 
 		<!-- Theme used for syntax highlighting of code -->
-		<link rel="stylesheet" href="lib/css/monokai.css">
+		<link rel="stylesheet" href="lib/css/zenburn.css">
 
 		<!-- Printing and PDF exports -->
 		<script>
@@ -23,13 +23,231 @@
 		</script>
 	</head>
 	<body>
+    <div style="position: absolute; bottom: 20px; left: 100%; margin-left: -230px">
+      <img height="80px" src="images/logo.png">
+    </div>
 		<div class="reveal">
 			<div class="slides">
-				<section>Slide 1</section>
-				<section>Slide 2</section>
+				<section>
+          <h1>Chat Ops</h1>
+          <h2>Chilliwack.tech/Next</h2>
+        </section>
+				<section>
+          <h1>Who?</h1>
+          <h3>Richard Clark</h3>
+          <h3>Crafty Penguins - richard@craftypenguins.net</h3>
+          <h4>We support companies, and their developers, create web based software that runs on Linux based servers</h4>
+        </section>
+        <section>
+          <section>
+          <h1>What?</h1>
+          <h3>Chat Ops</h3>
+          <p class="fragment fade-up">Chat</p>
+          <p class="fragment fade-up">DevOps</p>
+          </section>
+          <section id="whatchat" data-background-color="#000000">
+            <h2 style="text-shadow: 3px 3px 8px #000000">What is Chat?</h2>
+            ..for those who might have recently woke up from a long coma
+            <p id="chatwhatcommunication" class="fragment fade-up fragblack">
+              Communication
+            </p>
+            <p id="chatwhatkeyboard" class="fragment fade-up fragblack">
+              With a Keyboard
+            </p>
+            <p id="chatwhatdistance" class="fragment fade-up fragblack">
+              .. at a distance
+            </p>
+          </section>
+          <section id="whatdistance" data-background-color="#000000">
+              <img style="max-height: 60vh" src="images/next_to_you.jpg">
+          </section>
+          <section id="chat" data-background-color="#000000">
+            <h1 style="text-shadow: 3px 3px 8px #000000">Chat</h1>
+            <h3 style="text-shadow: 3px 3px 4px #000000">... is not new</h3>
+            <p id="chatphrase1" class="fragment fade-up fragblack">
+              First Multi-User Online Chat 1973
+            </p>
+            <p id="chatphrase2" class="fragment fade-up fragblack">
+              Internet Relay Chat (IRC) - 1988
+            </p>
+            <p id="chatphrase3" class="fragment fade-up fragblack">
+              Now - Chat is everywhere, multiple platforms<br/>Some studies suggest the primary form of human communication?
+            </p>
+          </section>
+          <section id="devopswhat" data-background-color="#000000">
+            <h1 style="text-shadow: 3px 3px 8px #000000">DevOps</h1>
+            <p id="devopswhat1" class="fragment fade-up fragblack">
+              Development - The people who create software
+            </p>
+            <p id="devopswhat2" class="fragment fade-up fragblack">
+              Operations - The people that build and maintain the infrastructure that allows other people to use the software
+            </p>
+            <p id="devopswhatwall" class="fragment fade-up fragblack">
+              Dev and Ops in many organizations used to be separate teams
+            </p>
+          </section>
+          <section id="devops" data-background-color="#000000">
+            <h1 style="text-shadow: 3px 3px 8px #000000">DevOps</h1>
+            <p id="devops_natural_2" class="fragblack">
+              Developer wants quick feedback.  Operations wants stability.
+            </p>
+            <p id="devops_natural" class="fragment fade-up fragblack">
+              Natural outcome of Cloud..  Click a few buttons, Poof, Infrastructure !
+            </p>
+            <p id="devops_natural_fail" class="fragment fade-up fragblack">
+              Natural fail - Operation <i><u>was</u></i> not just a few clicks
+            </p>
+            <p id="devops_peanutbutter" class="fragment fade-up fragblack">
+              Two great things merged together
+            </p>
+            <p id="devops_cycle" class="fragment fade-up fragblack">
+              DevOps = Infrastructure and Automation to get code to users quick, safe, repeatable.
+            </p>
+          </section>
+        </section>
+				<section>
+          <h1>Chat Ops</h1>
+            <p class="">
+              New Buzzword for something we have been doing for ages.
+            </p>
+            <p class="fragment fade-up">
+              A Chat Bot..
+            </p>
+            <p class="fragment fade-up">
+              A piece of software that hangs out in chat rooms, listens for things, acts on them..
+            </p>
+            <p class="fragment fade-up">
+  						..provides an alternative User Interface for DevOps automation
+            </p>
+        </section>
+				<section>
+          <h1>Buzz Word</h1>
+						<ul>
+              <li class="fragment fade-up">They want it</li>
+              <li class="fragment fade-up">They think it is cutting edge</li>
+							<li class="fragment fade-up">They have $</li>
+							<li class="fragment fade-up">It is easy and free to get started making a bot</li>
+              <li class="fragment fade-up">and having it perform devops tasks, or really any handy tasks.</li>
+              <li class="fragment fade-up">It's a great way to provide a UI</li>
+						<ul>
+        </section>
+				<section>
+          <h1>GO !</h1>
+        </section>
+				<section data-background-color="white" >
+          <img src="images/slack.png">
+        </section>
+				<section id="slackstart" data-transition="slide-out" data-background-opacity="1" data-background-image="images/screaming_crowd2.jpg">
+          <h2 class="fragblack" style="text-shadow: 3px 3px 8px #000000" >Slack</h2>
+          <section id="slack_create" data-transition="slide-out" data-background-opacity="0.75" data-background-image="images/screaming_crowd2.jpg">
+            <h4 class="fragblack">https://slack.com/get-started</h4>
+          </section>
+          <section id="slack_email" data-transition="slide-out" data-background-opacity="0.75" data-background-image="images/screaming_crowd2.jpg">
+            <img src="/images/1_2_createworkspace.png"/>
+          </section>
+          <section id="slack_email" data-transition="slide-out" data-background-opacity="0.75" data-background-image="images/screaming_crowd2.jpg">
+            <img src="/images/1_3_create_workspace_email.png"/>
+          </section>
+          <section id="slack_email" data-transition="slide-out" data-background-opacity="0.75" data-background-image="images/screaming_crowd2.jpg">
+            <img src="/images/1_4_confirm_email.png"/>
+          </section>
+          <section id="slack_name" data-transition="slide-out" data-background-opacity="0.50" data-background-image="images/screaming_crowd2.jpg">
+            <img src="/images/1_5_whats_your_name.png"/></li>
+          </section>
+          <section id="slack_password" data-transition="slide-out" data-background-opacity="0.40" data-background-image="images/screaming_crowd2.jpg">
+            <img src="/images/1_6_set_password.png"/>
+          </section>
+          <section id="slack_group" data-transition="slide-out" data-background-opacity="0.30" data-background-image="images/screaming_crowd2.jpg">
+            <img src="/images/1_7_company_group_name.png"/>
+          </section>
+          <section id="slack_url" data-transition="slide-out" data-background-opacity="0.20" data-background-image="images/screaming_crowd2.jpg">
+            <img src="/images/1_8_what_url_for_space.png"/>
+          </section>
+          <section id="slack_review" data-transition="slide-out" data-background-opacity="0.10" data-background-image="images/screaming_crowd2.jpg">
+            <img src="/images/1_9_review_the_terms.png"/>
+          </section>
+          <section id="slack_invite" data-transition="slide-out" data-background-opacity="0.10" data-background-image="images/screaming_crowd2.jpg">
+            <img src="/images/1_10_send_invitations.png"/>
+          </section>
+          <section id="slack_share" data-transition="slide-out" data-background-opacity="0.10" data-background-image="images/screaming_crowd2.jpg">
+            <img src="/images/1_11_share_invite_link.png"/>
+          </section>
+          <section>
+          <h1>Get Auth Token</h1>
+          </section>
+          <section id="slack_legacy_token">
+            <h4>https://api.slack.com/custom-integrations/legacy-tokens</h4>
+            <img src="/images/legacy_token_request.png"/>
+            <p>Scroll down to the middle of the page, request a token, and put the secret somewhere safe</p> 
+            <p>Your Bot will need it to act as you in Slack</p> 
+          </section>
+          <section id="slack_share" data-transition="slide-out" data-background-opacity="0.0" data-background-image="images/screaming_crowd2.jpg">
+            <h1 class="fragblack" style="text-shadow: 3px 3px 8px #000000">On to the bot</h1>
+          </section>
+        </section>
+        <section id="demo_thuderdome">
+          <h2>Demo Thunderdome</h2>
+        </section>
+        <section id="slack_link_joke">
+          <p>https://join.slack.com/t/chatbotallthethings/
+            shared_invite/enQtNDc2NjgyNjY0NDE4L
+            TU3NjZkM2FiYmUyMDMyYThlNzYxYmM3NmM1NTY
+            2MjMxMjZhYzk0MjgxODQ4ZjEwNmMzOTQ
+            3NDg1NzFmZmRkODQ</p>
+        </section>
+				<section id="slack_link_bitly">
+          <h3>http://bit.ly/chat_talk_invite</h3>
+          <img style="max-height: 60vh" src="images/qr-code.png">
+        </section>
+				<section id="language">
+          <h3>Stupid Chat Tricks</h3>
+          <p class="fragment fade-up">Sending a message</p>
+          <p class="fragment fade-up">Responding to a message</p>
+        </section>
+				<section id="language_python">
+          <h2>Better Bot - Python</h2>
+          <a url="https://slack-machine.readthedocs.io">https://slack-machine.readthedocs.io</a>
+        </section>
+				<section id="language_node">
+          <h2>Better Bot - Node.js</h2>
+          <a url="https://github.com/howdyai/botkit">https://github.com/howdyai/botkit</a>
+        </section>
+				<section id="devops_it">
+          <h2>Make it "Chat Ops"</h2>
+          <div style="font-size: 60%; word-wrap: break-word">
+            <p class="fragment fade-up">
+              -> @handybot deploy coolproject/feature_branch with dbseed horsetest until 2pm tomorrow<br/>
+            </p>
+              <p class="fragment fade-up">
+            -> @seerickcode: Branch "featurebranch" has gone through CI/D without issue, has been seeded with horsetest data and is available at https://bright-spartan.wantitto.work. I will kill it off and recycle the bits on Wednesday at 2pm after I give you a 10m warning.<br/>
+            </p>
+            <p class="fragment fade-up">
+            -> @handybot release the horde against bright-spartan<br/>
+            </p>
+            <p class="fragment fade-up">
+            -> @seerickcode: horde qa/stress/chaos tests coolproject have been scheduled against https://bright-spartan.wantitto.work. If you wanted a different test set say @handybot help release the horde If you made a horrible mistake @handbot nonono right away to call off the horde<br/>
+            </p>
+            <p class="fragment fade-up">
+            -> @handybot make me a sandwich<br/>
+            </p>
+            <p class="fragment fade-up">
+            -> @seerickcode: Sorry I don't know how to "make me a sandwich" but maybe this can help ? or try @handybot help<br/>
+            </p>
+          </div>
+        </section>
+				<section id="end">
+          <h2>The End</h2>
+          <h3>Questions ?</h3>
+          https://github.com/seerickcode/chatops-next
+          https://slack-machine.readthedocs.io
+          https://github.com/howdyai/botkit
+          Linux Fest Northwest April 2019
+          richard@craftypenguins.net
+        </section>
 			</div>
 		</div>
 
+		<script src="lib/js/head.min.js"></script>
 		<script src="js/reveal.js"></script>
 
 		<script>
@@ -37,13 +255,54 @@
 			// - https://github.com/hakimel/reveal.js#configuration
 			// - https://github.com/hakimel/reveal.js#dependencies
 			Reveal.initialize({
-				dependencies: [
+				slideNumber: true,
+        transition: 'convex',
+        controlsLayout: 'edges',
+        dependencies: [
 					{ src: 'plugin/markdown/marked.js' },
 					{ src: 'plugin/markdown/markdown.js' },
 					{ src: 'plugin/notes/notes.js', async: true },
-					{ src: 'plugin/highlight/highlight.js', async: true }
+					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } }
 				]
 			});
+			Reveal.addEventListener( 'slidechanged', function( event ) {
+				id = event.currentSlide.id;
+				console.log("Slide: " + id);
+			} );
+			Reveal.addEventListener( 'fragmentshown', function( event ) {
+				id = event.fragment.id;
+				console.log("Fragment: " + id);
+				switch(id) {
+					case 'chatphrase1':
+						Reveal.getCurrentSlide().dataset.backgroundImage = "images/K_and_R_PDP11.jpg";
+						Reveal.sync();
+						break;
+					case 'chatphrase2':
+						Reveal.getCurrentSlide().dataset.backgroundImage = "images/1988_shack.jpg";
+						Reveal.sync();
+						break;
+					case 'chatphrase3':
+						Reveal.getCurrentSlide().dataset.backgroundImage = "images/texting_group.jpg";
+						Reveal.sync();
+						break;
+					case 'devops_cycle':
+						Reveal.getCurrentSlide().dataset.backgroundImage = "images/Devops1.png";
+						Reveal.sync();
+						break;
+					case 'devops_peanutbutter':
+						Reveal.getCurrentSlide().dataset.backgroundImage = "images/peanut_chocolate.gif";
+						Reveal.sync();
+						break;
+					case 'devops_natural':
+						Reveal.getCurrentSlide().dataset.backgroundImage = "images/clouds.png";
+						Reveal.sync();
+						break;
+					case 'devops_natural_fail':
+						Reveal.getCurrentSlide().dataset.backgroundImage = "images/dev_tries_ops.png";
+						Reveal.sync();
+						break;
+				}
+			} );
 		</script>
 	</body>
 </html>
