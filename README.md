@@ -1,3 +1,15 @@
+# Chat Ops - LFNW 2019 presentation
+
+## The presentation use reveal.js (details below)
+
+## YouTube video of the actual presentation is available at:
+https://youtu.be/c_nDwoGQcBQ
+
+## Slide deck (as PDF) available at:
+https://github.com/seerickcode/chatops-lfnw/blob/master/Chat%20Ops%20-%20LFNW%202019.pdf
+
+---
+
 # reveal.js [![Build Status](https://travis-ci.org/hakimel/reveal.js.svg?branch=master)](https://travis-ci.org/hakimel/reveal.js) <a href="https://slides.com?ref=github"><img src="https://s3.amazonaws.com/static.slid.es/images/slides-github-banner-320x40.png?1" alt="Slides" width="160" height="20"></a>
 
 A framework for easily creating beautiful presentations using HTML. [Check out the live demo](http://revealjs.com/).
