@@ -8,6 +8,17 @@ https://youtu.be/c_nDwoGQcBQ
 ## Slide deck (as PDF) available at:
 https://github.com/seerickcode/chatops-lfnw/blob/master/Chat%20Ops%20-%20LFNW%202019.pdf
 
+### The code used to run the 'Lab' bot that provisioned VM's for the audience is at 
+https://github.com/seerickcode/demo_lab_bot
+Time permitting, this might become something unto itself, but right now, just a proof of concept on some crazy stuff you could do with a bot.
+
+### The code used for the 'Game' bot that was putting out questions and watching for answers is at 
+https://github.com/seerickcode/demo_lab_game
+
+### The sample starting code that was loaded into each members VM is at 
+https://github.com/seerickcode/demo_lab_tutorial
+
+
 ---
 
 # reveal.js [![Build Status](https://travis-ci.org/hakimel/reveal.js.svg?branch=master)](https://travis-ci.org/hakimel/reveal.js) <a href="https://slides.com?ref=github"><img src="https://s3.amazonaws.com/static.slid.es/images/slides-github-banner-320x40.png?1" alt="Slides" width="160" height="20"></a>
